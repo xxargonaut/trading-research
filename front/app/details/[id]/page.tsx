@@ -20,7 +20,7 @@ export default function DetailsPage() {
                         <tr>
                             <th className='py-1'>Name</th>
                             <th>Price</th>
-                            <th>Min Price</th>
+                            <th>Dex</th>
                         </tr>
                     </thead>
                     <tbody className='text-center text-[18px]'>
