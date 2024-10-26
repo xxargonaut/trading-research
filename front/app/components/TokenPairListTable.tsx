@@ -87,7 +87,7 @@ const TokenPairListTable: React.FC = () => {
                         {pageData.map((item) => (
                             <tr
                                 key={item.name}
-                                className='border-b-2 border-red-200 cursor-pointer'
+                                className='border-b-2 border-red-200 cursor-pointer hover:bg-red-400 hover:opacity-90'
                                 onClick={() => handleRowClick(item.id)}
                             >
                                 <td className='py-1'>{item.name}</td>
